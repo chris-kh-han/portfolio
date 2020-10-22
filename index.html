@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="chris portfolio">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://kit.fontawesome.com/39e591cd39.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>DevChris portfolio Website</title>
+
+</head>
+<body>
+    <header>
+        <!-- <div class="logo">
+            <img src="./img/devjane.png" alt="" />
+        </div> -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title-intro ">
+            Hi, I am <strong>Chris Han</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">FRONT - END DEV</p>
+        <img src="./img/dev-profile-01.jpg" alt="dev-profile-pic-01" class="intro__img">
+    </section>
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title-services">Skills</h2>
+        <div class="services">
+            <div class="service">
+                <p>JavaScript</p>
+                <p>HTML5</p>
+                <p>CSS</p>
+                <p>jQuery</p>
+                <p>Responsive Design</p>
+                <p>Bootstrap</p>
+                <p>React</p>
+            </div>
+
+            <div class="service">
+                <p>MongoDB</p>
+                <p>Laravel</p>
+                <p>MySQL</p>
+                <p>Heroku</p>
+                <p>Security and Session Storage</p>
+                <p>User Authentication</p>
+            </div>
+            
+            <!-- <div class="service">
+                <h3>Problem Solving</h3>
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+            </div> -->
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Web developer & Software engineer</p>
+
+        <div class="about-me__body">
+            <p>I have constant desire to grow, learn, and explore new things</p>
+            <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        </div>
+
+        <img src="./img/dev-profile-02.jpg" alt="dev-profile-pic-02" class="about-me__img">
+    </section>
+
+    <section class="my-work" id="work">
+        <h2 class="section__title-work">My Work</h2>
+        <p class="section__subtitle-work">A collection of my range of work</p>
+
+        <div class="portfolio">
+            <a href="./portfolio-item.html" class="portfolio__item">
+                <img src="./img/tic-tac-toe.jpg" alt="tic-tac-toe" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="./img/netflix-chill.jpg" alt="portfolio" class="portfolio__img">
+            </a>
+            <a href="./todolist.html" class="portfolio__item">
+                <img src="./img/todolist-01.jpg" alt="portfolio" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="./img/portfolio-04.jpg" alt="portfolio" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="./img/portfolio-05.jpg" alt="portfolio" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="./img/portfolio-06.jpg" alt="portfolio" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="./img/portfolio-07.jpg" alt="portfolio" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="./img/portfolio-08.jpg" alt="portfolio" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="" class="footer__link">chris.kh.han@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
