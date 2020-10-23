@@ -146,14 +146,22 @@ header {
 
 .logo {
     max-width: 150px;
+    
 }
 
-.logo .resume__logo {
+.logo a {
     color: var(--clr-dark);
     text-decoration: none;
+    transition: all 1000ms ease-in;
 }
 
-.resume__link {
+.logo:hover,
+.logo:focus {
+    opacity: .8;
+    transform: scale(1.2);
+}
+
+.logo .resume__link {
     margin-right: .5em;
 }
 
@@ -355,7 +363,7 @@ header {
     box-shadow: var(--bs);
 }
 
-.about-me__link {
+/* .about-me__link {
     text-decoration: none;
     color: var(--clr-dark);
 }
@@ -364,7 +372,7 @@ header {
 .about-me__link:focus {
     background-color: var(--clr-dark);
     color: var(--clr-accent);
-}
+} */
 
 @media (min-width: 600px) {
     .about-me {
