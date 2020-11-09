@@ -24,6 +24,7 @@ body {
 	--clr-lightgrey: #eeeeee;
 	--clr-dark:  #323330;
 	--clr-accent: #0d47a1;
+	--clr-accent2: #2196f3;
 
 
 	--fs-h1: 2rem;
@@ -41,9 +42,9 @@ p {
 	margin: 0;
 }
 
-
 h1 {
 	font-size: var(--fs-h1);
+	color: var(--clr-accent2);
 
 }
 
@@ -89,6 +90,10 @@ p {
 	padding: .8em;
 }
 
+.cv-header-job {
+	color: var(--clr-accent2);
+}
+
 .cv-header-whoIam {
 	margin-top: 1em;
 }
@@ -104,7 +109,6 @@ p {
 }
 
 .cv-works-title {
-	margin-bottom: .5em;
 	background-color: var(--clr-light);
 }
 
@@ -113,7 +117,7 @@ p {
 	grid-template-columns: 30% 70%;
 	grid-gap: 1em;
 	background-color: var(--clr-light);
-	padding: .8em;
+
 }
 
 .cv-works-name-title {
@@ -123,12 +127,8 @@ p {
 
 .cv-experience-div {
 	background-color: var(--clr-light);
-	padding: .8em;
 	border-top: 5px solid var(--clr-lightgrey);
-}
-
-.asdf {
-	
+	padding-top: 1em;
 }
 
 .cv-experience-title {
@@ -145,34 +145,38 @@ p {
 	margin-bottom: .5em;
 }
 
-
+/* Aside */
 
 .cv-aside {
 	display: grid;
 	grid-gap: 1em;
-	grid-template-rows: repeat(3, 1fr);
+	grid-template-rows: repeat(3, auto);
 }
 
 .cv-skills-div {
 	background-color: var(--clr-accent);
 	color: var(--clr-light);
 	padding: .8em;
-	grid-row: 1/2;
 }
 
 .cv-skills-title {
 	margin-bottom: .5em;
+	text-align: center;
+}
+
+.skill {
+	margin-bottom: .3em;
 }
 
 .cv-education-div {
 	background-color: var(--clr-accent);
 	color: var(--clr-light);
 	padding: .8em;
-	grid-row: 2/3;
 }
 
 .cv-education-title {
 	margin-bottom: .5em;
+	text-align: center;
 }
 
 .cv-education {
@@ -187,9 +191,9 @@ p {
 	background-color: var(--clr-accent);
 	color: var(--clr-light);
 	padding: .8em;
-	grid-row: 3 / 4;
 }
 
 .cv-contact-title {
 	margin-bottom: .5em;
+	text-align: center;
 }
