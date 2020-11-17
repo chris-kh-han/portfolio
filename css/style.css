@@ -525,8 +525,8 @@ header {
 }
 
 .portfolio-item-individual img {
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 400px;
+    max-height: 400px;
     margin: 0 auto;
     background-size: cover;
 }
@@ -537,8 +537,25 @@ header {
 }
 
 .portfolio-link a {
-    margin: 0 1em;
-    font-size: var(--fs-h2);
+    display: inline-block;
+    padding: .5em 1.5em;
+    background-color: var(--clr-accent);
     color: var(--clr-dark);
-    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: var(--fw-bold);
+    margin: 0 1em;
+    cursor: pointer;
+    font-size: .8em;
+    color: var(--clr-dark);
+    transition: transform 200ms ease-in-out;   
 }
+
+.portfolio-link a:hover {
+    transform: scale(1.1)
+}
+
+.portfolio-link a span {
+    margin-left: .5em;
+}
+
