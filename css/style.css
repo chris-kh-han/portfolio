@@ -161,16 +161,12 @@ header {
 }
 
 .logo .resume__logo {
-    position: fixed;
     color: var(--clr-accent);
     background-color: var(--clr-dark);
-    padding: .5em 1em;
+    padding: .3em .7em;
     border-radius: .25em;
 }
 
-.logo .resume__link {
-    margin-right: .5em;
-}
 
 .nav {
     position: fixed;
