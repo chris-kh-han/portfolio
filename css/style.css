@@ -158,7 +158,14 @@ header {
 .logo:hover,
 .logo:focus {
     opacity: .8;
-    transform: scale(1.2);
+}
+
+.logo .resume__logo {
+    position: fixed;
+    color: var(--clr-accent);
+    background-color: var(--clr-dark);
+    padding: .5em 1em;
+    border-radius: .25em;
 }
 
 .logo .resume__link {
